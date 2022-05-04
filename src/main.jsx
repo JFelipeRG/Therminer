@@ -4,7 +4,8 @@ import './index.css'
 import App from './app.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
-import User from './pages/user'
+
+const Profile = React.lazy(() => import('./pages/profile'))
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<App />}>
           <Route path='/' element={<Home />} />
-          <Route path='user' element={<User />} />
+          <Route path='profile' element={<React.Suspense fallback={<>...</>}><Profile /></React.Suspense>} />
         </Route>
       </Routes>
     </BrowserRouter>

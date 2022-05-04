@@ -1,0 +1,19 @@
+.data-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.hr-Profile {
+    margin: 0 20px;
+}
+
+.user-Info-Container {
+    width: 200px;
+    height: fit-content;
+    background-color: peachpuff;
+}
+
+.graphics-Container {
+    width: 300px;
+    background-color: peachpuff;
+}

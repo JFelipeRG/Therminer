@@ -9,7 +9,7 @@ export default function header () {
     <>
       <div className='App-Header'>
         <div className='logo'>
-          <img src='/src/assets/therminer icon.png' />
+          <img src='/src/assets/img/therminer icon.png' />
           <h1>Therminer</h1>
         </div>
         <div className='App-Nav'>

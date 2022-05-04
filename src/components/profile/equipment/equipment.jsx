@@ -18,7 +18,7 @@ const components = {
 export default function equipment () {
   return (
     <div>
-      <h1>Equipment Info</h1>
+      <h2>Equipment Info</h2>
       <hr />
       {Object.keys(components).map(category => {
         return <LabelInfo key={category} name={category} info={components[category].value} />

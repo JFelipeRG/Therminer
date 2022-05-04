@@ -1,8 +1,10 @@
+import { DivSpace } from '../user/user.style'
+
 export default function labelComponent ({ name, info }) {
   return (
-    <div>
-      <h2>{name}</h2>
+    <DivSpace>
+      <h3>{name}</h3>
       <h3>{info}</h3>
-    </div>
+    </DivSpace>
   )
 }

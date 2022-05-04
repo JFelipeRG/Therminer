@@ -1,13 +1,13 @@
-import { BsFillPencilFill } from 'react-icons/bs'
+import { Img, H2, PencilIcon, Div } from './user.style'
 
-export default function userInfo () {
+export function UserInfo () {
   return (
     <>
-      <div>
-        <img src='' alt='' />
-        <BsFillPencilFill />
-      </div>
-      <h2>User Name</h2>
+      <Div>
+        <Img src='src\assets\img\user.png' alt='' />
+        <PencilIcon />
+      </Div>
+      <H2>User Name</H2>
     </>
   )
 }

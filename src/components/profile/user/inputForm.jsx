@@ -1,8 +1,10 @@
-export default function form ({ name, type }) {
+import { Label, Input } from './user.style'
+
+export default function InputForm ({ name, type }) {
   return (
     <>
-      <label htmlFor={name}>{name}</label>
-      <input type={type} id={name} />
+      <Label htmlFor={name}>{name}</Label>
+      <Input type={type} id={name} />
     </>
   )
 }

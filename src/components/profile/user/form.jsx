@@ -1,4 +1,5 @@
 import InputForm from './inputForm'
+import { Button, DivColumn } from './user.style'
 
 const userInfo = {
   Direccion: {
@@ -15,13 +16,15 @@ const userInfo = {
   }
 }
 
-export default function form () {
+export function FormUser () {
   return (
     <form>
-      {Object.keys(userInfo).map(category => {
-        return <InputForm key={category} name={category} type={userInfo[category].type} />
-      })}
-      <input type='submit' value='Save' />
+      <DivColumn>
+        {Object.keys(userInfo).map(category => {
+          return <InputForm key={category} name={category} type={userInfo[category].type} />
+        })}
+        <Button type='button'>Save</Button>
+      </DivColumn>
     </form>
   )
 }

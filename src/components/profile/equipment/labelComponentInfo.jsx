@@ -1,4 +1,4 @@
-import { DivFlexBox, Span } from '../index.style'
+import { DivFlexBox, Span } from '../../index.style'
 
 export default function labelComponent ({ name, info }) {
   return (

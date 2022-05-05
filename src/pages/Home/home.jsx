@@ -1,5 +1,7 @@
 import SettingOption from '../../components/home/settingOption'
 
+import './home.css'
+
 const options = ['Modo Equipo', 'Circuito Calefacción']
 
 export default function home () {

@@ -1,0 +1,33 @@
+.panel-Control {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grafic-Container {
+    display: flex;
+}
+
+.chart-Container {
+    width: 80%;
+    height: 400px;
+    margin: 10px 20px;
+    background-color: aqua;
+}
+
+.chart-Settings {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-Chart > * {
+    margin: 0 10px;
+}
+
+.tempScroll-Container {
+    width: 20%;
+    height: 400px;
+    margin: 10px 20px;
+    background-color: aqua;
+}

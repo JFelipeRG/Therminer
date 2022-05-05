@@ -14,7 +14,7 @@ export const PencilIcon = styled(BsFillPencilFill)`
     width: 20px;
     height: 20px;
     transform: translateX(70px);
-    color: grey;
+    color: #686868;
     cursor: pointer;
 `
 
@@ -28,11 +28,13 @@ export const Label = styled.label`
 
 export const Input = styled.input`
     border: none;
-    border-bottom: 1px solid grey;
+    background-color: #e3dfc5;
+    border-bottom: 1px solid #283618;
     height: 35px;
     font-size: 16px;
-    width: 98%;
+    width: 90%;
     outline: none;
+    padding: 0 10px;
 `
 
 export const Button = styled.button`
@@ -41,7 +43,7 @@ export const Button = styled.button`
     height: 35px;
     font-size: 16px;
     font-weight: bold;
-    background-color: #4c7a34;
+    background-color: #606C38;
     color: white;
     text-align: center;
     padding: 7px 0;
@@ -50,6 +52,6 @@ export const Button = styled.button`
     cursor: pointer;
 
     &:hover {
-        background-color: #4c7a34;
+        background-color: #283618;
     }
 `

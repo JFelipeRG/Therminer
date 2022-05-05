@@ -1,6 +1,6 @@
 import InputForm from './inputForm'
 import { Button } from './user.style'
-import { DivFlexBox } from '../index.style'
+import { DivFlexBox } from '../../index.style'
 
 const userInfo = {
   Direccion: {

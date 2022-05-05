@@ -1,4 +1,4 @@
-import { DivFlexBox, H2, Span } from '../index.style'
+import { DivFlexBox, H2, Span } from '../../index.style'
 import { WalletIcon } from './wallet.style'
 
 export function Wallet () {
@@ -9,7 +9,7 @@ export function Wallet () {
         <H2>Ganancias totales</H2>
         <Span weigth='bold'>99999 BTC</Span>
       </DivFlexBox>
-      <Span color='green' weigth='bold'>+9999 BTC hoy</Span>
+      <Span color='#689f26' weigth='bold'>+9999 BTC hoy</Span>
     </DivFlexBox>
   )
 }

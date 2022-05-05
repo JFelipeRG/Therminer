@@ -1,5 +1,5 @@
 import LabelInfo from './labelComponentInfo'
-import { DivFlexBox, H2 } from '../index.style'
+import { DivFlexBox, H2 } from '../../index.style'
 
 const components = {
   Fabricante: {

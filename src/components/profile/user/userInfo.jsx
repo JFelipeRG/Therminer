@@ -1,12 +1,13 @@
-import { Img, H2, PencilIcon, Div } from './user.style'
+import { Img, PencilIcon } from './user.style'
+import { DivFlexBox, H2 } from '../index.style'
 
 export function UserInfo () {
   return (
     <>
-      <Div>
+      <DivFlexBox>
         <Img src='src\assets\img\user.png' alt='' />
         <PencilIcon />
-      </Div>
+      </DivFlexBox>
       <H2>User Name</H2>
     </>
   )

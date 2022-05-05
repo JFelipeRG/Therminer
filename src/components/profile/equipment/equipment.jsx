@@ -1,4 +1,5 @@
 import LabelInfo from './labelComponentInfo'
+import { DivFlexBox, H2 } from '../index.style'
 
 const components = {
   Fabricante: {
@@ -15,14 +16,13 @@ const components = {
   }
 }
 
-export default function equipment () {
+export function Equipment () {
   return (
-    <div>
-      <h2>Equipment Info</h2>
-      <hr />
+    <DivFlexBox direction='column'>
+      <H2 width='60%' border='true'>Equipment Info</H2>
       {Object.keys(components).map(category => {
         return <LabelInfo key={category} name={category} info={components[category].value} />
       })}
-    </div>
+    </DivFlexBox>
   )
 }

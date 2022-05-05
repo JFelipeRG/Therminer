@@ -1,5 +1,6 @@
 import InputForm from './inputForm'
-import { Button, DivColumn } from './user.style'
+import { Button } from './user.style'
+import { DivFlexBox } from '../index.style'
 
 const userInfo = {
   Direccion: {
@@ -19,12 +20,12 @@ const userInfo = {
 export function FormUser () {
   return (
     <form>
-      <DivColumn>
+      <DivFlexBox direction='column'>
         {Object.keys(userInfo).map(category => {
           return <InputForm key={category} name={category} type={userInfo[category].type} />
         })}
         <Button type='button'>Save</Button>
-      </DivColumn>
+      </DivFlexBox>
     </form>
   )
 }

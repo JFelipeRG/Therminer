@@ -1,6 +1,7 @@
 .data-Container {
     display: flex;
     justify-content: center;
+    margin: 40px 0;
 }
 
 .hr-Profile {
@@ -8,12 +9,11 @@
 }
 
 .user-Info-Container {
-    width: 200px;
+    width: 350px;
+    padding: 5px 10px;
     height: fit-content;
-    background-color: peachpuff;
 }
 
 .graphics-Container {
-    width: 300px;
-    background-color: peachpuff;
+    width: 550px;
 }

@@ -1,6 +1,4 @@
-import Equipment from '../../components/profile/equipment/equipment'
-import Wallet from '../../components/profile/wallet'
-import { UserInfo, FormUser } from '../../components/profile/user/index'
+import { UserInfo, FormUser, Wallet, Equipment } from '../../components/profile/index'
 
 import './profile.css'
 

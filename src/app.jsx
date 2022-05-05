@@ -14,8 +14,8 @@ export default function header () {
           <h1>Therminer</h1>
         </div>
         <div className='App-Nav'>
-          <LinkNav id='home-link' name='home' class='active' url='/' icon={<BsHouseFill />} />
-          <LinkNav id='user-link' name='user' class='' url='/profile' icon={<FaUserAlt />} />
+          <LinkNav name='home' class='home-link active' url='/' icon={<BsHouseFill />} />
+          <LinkNav name='user' class='user-link' url='/profile' icon={<FaUserAlt />} />
           <div className='underline' />
         </div>
       </div>

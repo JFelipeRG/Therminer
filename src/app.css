@@ -1,26 +1,27 @@
 .App-Header {
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
-    padding: 10px 20px 0;
+    padding: 8px 15px 0;
     color: rgb(75, 75, 75);
+    position: relative;
 }
 
-img {
-    width: 40px;
-    height: 40px;
+.logo-Icon {
+    width: 80px;
+    height: 80px;
 }
 
 .logo{
     display: flex;
     padding-right: 20px;
-    padding-bottom: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .logo h1 {
     margin: auto;
+    font-size: 40px;
 }
 
 .App-Nav {
@@ -29,6 +30,7 @@ img {
     position: relative;
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .App-Nav a {
@@ -36,19 +38,10 @@ img {
     cursor: default;
 }
 
-.underline {
-    position: absolute;
-    width: 30px;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 0;
-    bottom: -3px;
-}
-
 .nav-logo > *{
     margin: 0 15px;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     color: rgb(75, 75, 75);
 }
@@ -59,13 +52,22 @@ img {
     color: rgb(63, 63, 63);
 }
 
+.underline {
+    position: absolute;
+    width: 35px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    bottom: -10px;
+}
+
 .nav-logo:nth-child(1).active ~ .underline {
     transform: translateX(15px);
     transition: 0.4s;
 }
 
 .nav-logo:nth-child(2).active ~ .underline {
-    transform: translateX(75px);
+    transform: translateX(80px);
     transition: 0.4s;
 }
 
